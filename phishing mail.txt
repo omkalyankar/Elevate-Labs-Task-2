@@ -1,0 +1,37 @@
+From: security-update@secure-paypal.com
+To: your_email@example.com
+Subject: 🚨 Urgent: Your PayPal Account Has Been Limited
+
+Dear Customer,
+
+We noticed unusual activity in your PayPal account and have temporarily limited your access for security reasons. Immediate action is required to restore full access.
+
+To confirm your identity, please log in to your account by clicking the secure link below:
+
+🔒 Verify Now
+
+If we do not hear from you within 24 hours, your account will be permanently suspended.
+
+Thank you for your cooperation.
+
+Sincerely,
+PayPal Security Team
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##HEADER
+Received: from unknown123.secure-login247.com ([192.168.1.15])
+	by smtp.secure-paypal.com with SMTP id xYz123abc456;
+	Wed, 27 May 2025 10:15:43 +0530
+Received-SPF: softfail (google.com: domain of transitioning security-update@secure-paypal.com does not designate 192.168.1.15 as permitted sender)
+Authentication-Results: spf=softfail (google.com: domain of transitioning security-update@secure-paypal.com does not designate 192.168.1.15 as permitted sender) smtp.mailfrom=security-update@secure-paypal.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=secure-paypal.com; s=default;
+	h=from:subject:to:date:mime-version:content-type;
+	bh=abcd1234567890==;
+	b=invalidsignature==
+Return-Path: <security-update@secure-paypal.com>
+From: "PayPal Security" <security-update@secure-paypal.com>
+To: your_email@example.com
+Subject: 🚨 Urgent: Your PayPal Account Has Been Limited
+Date: Wed, 27 May 2025 10:15:43 +0530
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Message-ID: <Xyz123abc456@secure-login247.com>
